@@ -89,9 +89,9 @@ mergedData.mean <- dcast(mergedData.melted, subject + activity ~ variable, mean)
 
 # Export both final tidy data set and its averaged data set per subject and activity
 # ! omit the comment below if you want to export all data 
-# write.csv(mergedData, file = "tidy_all.csv", quote = FALSE, row.names = FALSE)
-write.csv(mergedData.mean, file = "tidy_avg.csv", quote = FALSE, row.names = FALSE)
-message("Data has been saved as tidy*.csv.")
+# write.table(mergedData, file = "tidy_all.txt", quote = FALSE, row.names = FALSE)
+write.table(mergedData.mean, file = "tidy_avg.txt", quote = FALSE, row.names = FALSE)
+message("Data has been saved as tidy*.txt.")
 
 ##########################################################################################################################################################
 ## END OF SCRIPT

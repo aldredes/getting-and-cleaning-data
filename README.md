@@ -28,6 +28,6 @@ This project requires to create one R script called run_analysis.R that does the
 4. Appropriately labels the data set with descriptive activity names. 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-In my implementation of R script, the order of steps were followed.  Prior to running this script, the data set should be downloaded and extracted in the current working directory  wherein the folder "UCI HAR Dataset" is at the same level of this script. The final summarized tidy data set (that consists of the average (mean) value of each variable per subject and activity) is saved as file 'tidy_avg.csv.'
+In my implementation of R script, the order of steps were followed.  Prior to running this script, the data set should be downloaded and extracted in the current working directory  wherein the folder "UCI HAR Dataset" is at the same level of this script. The final summarized tidy data set (that consists of the average (mean) value of each variable per subject and activity) is saved as file 'tidy_avg.txt.'
 
 Additional information about the variables, data and transformations can be seen in CODEBOOK.md.
